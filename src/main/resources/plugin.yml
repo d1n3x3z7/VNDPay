@@ -1,0 +1,22 @@
+name: VNDPay
+version: '${project.version}'
+main: me.d1n3x3z7.vndpayment.VNDPay
+api-version: '1.21'
+description: 'In-game payment creator'
+load: STARTUP
+website: 'https://vndteam.ru'
+author: 'd1n3x3z7 (aka d2n4x7z)'
+
+commands:
+  vndpay:
+    aliases:
+      - vndpayment
+      - payment
+      - vndbuy
+    permission: vnd.pay
+    usage: /vndpay
+    description: 'Create payment url with args'
+
+permissions:
+  vnd.pay:
+    default: op

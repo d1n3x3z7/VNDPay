@@ -1,0 +1,18 @@
+
+mode: "all" # "trademc" or "easydonate" or "all"
+
+message-format: "<username> может приобрести <product> <count>x по ссылке <payment>"
+
+secret-key: "your secret key" # for EasyDonate
+server-id: 0 # for EasyDonate
+
+success-url: "your success url" # success payment redirect
+fail-url: "your fail url" # fail payment redirect
+
+allowed-products: # should contain all allowed products names from "products" (name in example = prod-example)
+  - prod-example
+
+products:
+  prod-example:
+    name: "example" # Product name in game (not in command, printable message only)
+    id: 123523 # Product ID in service
