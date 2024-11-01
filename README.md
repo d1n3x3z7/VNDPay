@@ -10,7 +10,7 @@
 
 ## Установка
 
-1. Скачайте последнюю версию VNDPay с [GitHub Releases](ссылка на релизы).
+1. Скачайте последнюю версию VNDPay с [GitHub Releases](https://github.com/d1n3x3z7/VNDPay/releases/latest).
 2. Поместите файл `.jar` в папку `plugins` вашего сервера Minecraft.
 3. Перезапустите сервер для загрузки плагина.
 
